@@ -56,10 +56,10 @@ local reachType = "Sphere"
  
 local Material = loadstring(game:HttpGet("https://raw.githubusercontent.com/Kinlei/MaterialLua/master/Module.lua"))()
 local UI = Material.Load({
-	Title = "noahs Darkside",
-	Style = 1,
-	SizeX = 90,
-	SizeY = 40,
+	Title = "noah Darkside",
+	Style = 0,
+	SizeX = 471,
+	SizeY = 269,
 	Theme = customtheme
 })
 --page bypass stuffj
@@ -147,7 +147,7 @@ local CircleSize = Page2.Slider({
 		reachsize = tonumber(value)
 	end,
 	Min = 0,
-	Max = 50,
+	Max = 90,
 	Def = 4
 })
 local sparemultiplier = 1
